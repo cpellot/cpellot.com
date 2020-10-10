@@ -1,0 +1,57 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-10-10 20:15:02",
+    "containerVersion": {
+        "path": "accounts/131421952/containers/1618985/versions/1",
+        "accountId": "131421952",
+        "containerId": "1618985",
+        "containerVersionId": "1",
+        "container": {
+            "path": "accounts/131421952/containers/1618985",
+            "accountId": "131421952",
+            "containerId": "1618985",
+            "name": "www.cpellot.com",
+            "publicId": "GTM-ML5MKF",
+            "notes": "create by carlos a pellot suarez on  10/10/2015,for enquery",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1571502277975",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/131421952/containers/1618985/workspaces?apiLink=container"
+        },
+        "builtInVariable": [
+            {
+                "accountId": "131421952",
+                "containerId": "1618985",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "131421952",
+                "containerId": "1618985",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "131421952",
+                "containerId": "1618985",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "131421952",
+                "containerId": "1618985",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "131421952",
+                "containerId": "1618985",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1444480247201",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/131421952/containers/1618985/versions/1?apiLink=version"
+    }
+}
