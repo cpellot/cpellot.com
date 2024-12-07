@@ -1,4 +1,4 @@
-# *********************************** WARNING **************************************
+[![CodeQL](https://github.com/cpellot/cpellot.com/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cpellot/cpellot.com/actions/workflows/codeql-analysis.yml)# *********************************** WARNING **************************************
 # We have not automatically identified the languages in your repository.
 # Please edit the `language:` list below to add the appropriate supported languages.
 # **********************************************************************************
