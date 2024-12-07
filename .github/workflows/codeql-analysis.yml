@@ -1,4 +1,4 @@
-[![CodeQL](https://github.com/cpellot/cpellot.com/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cpellot/cpellot.com/actions/workflows/codeql-analysis.yml)# *********************************** WARNING **************************************
+#codeql-analysis.yml
 # We have not automatically identified the languages in your repository.
 # Please edit the `language:` list below to add the appropriate supported languages.
 # **********************************************************************************
@@ -19,7 +19,8 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      fail-fast: false
+      fail-fast: true
+      
       matrix:
         # Override automatic language detection by changing the below list
         # Supported options are ['csharp', 'cpp', 'go', 'java', 'javascript', 'python']
