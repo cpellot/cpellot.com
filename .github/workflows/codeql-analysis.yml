@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      fail-fast: true
+      fail-fast: false
       
       matrix:
         # Override automatic language detection by changing the below list
@@ -63,7 +63,7 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
 
-    #- run:
+    #- run:CodeQl
     #   make bootstrap
     #   make release
 
