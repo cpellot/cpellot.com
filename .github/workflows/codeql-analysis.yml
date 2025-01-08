@@ -14,7 +14,7 @@ on:
     - cron: '0 3 * * 5'
 
 jobs:
-  analyze:
+  analyze: CodeQL
     name: Analyze
     runs-on: ubuntu-latest
 
