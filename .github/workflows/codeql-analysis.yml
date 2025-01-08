@@ -15,7 +15,7 @@ on:
 
 jobs:
   analyze: CodeQL
-    name: Analyze
+    name: perform job analysis
     runs-on: ubuntu-latest
 
     strategy:
