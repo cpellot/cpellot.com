@@ -15,7 +15,7 @@ on:
 
 jobs:
   analyze: CodeQL
-    name:  
+    name:
     runs-on: ubuntu-latest
 
     strategy:
