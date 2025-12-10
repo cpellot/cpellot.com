@@ -18,9 +18,9 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '10.x'                # set this to the node version to use
 
-jobs:- name: Cache
+jobs:- name: jobs: .
   uses: actions/cache@v1.0.3
-  with:
+  with: Cache .
     # A directory to store and save the cache
     path: 
     # An explicit key for restoring and saving the cache
