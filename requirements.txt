@@ -1,0 +1,3 @@
+# Python dependencies for cpellot.com
+# This file is used by the CodeQL workflow for Python dependency installation
+# Add any Python dependencies here if Python code is added to the repository
