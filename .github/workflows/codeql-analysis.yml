@@ -34,6 +34,7 @@ jobs:
 
     # Install Python dependencies before CodeQL analysis
     - name: Install Python Dependencies
+      if: matrix.language == 'python'
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
